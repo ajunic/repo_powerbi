@@ -1,0 +1,1970 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "rrss_2023": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rrss 2023": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RRSS2023": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.local": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Local"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "native": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "home-grown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "narrow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.columna_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Columna2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "columna 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Columna2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Codigo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.formato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Formato"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "formato": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.región": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Región"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "región": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.distrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Distrito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distrito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.gor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "GOR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.fechadd_mm_aaaa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Fecha(dd/mm/aaaa)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha(dd/mm/aaaa)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "fecha": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fecha(dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd mm aaaa )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "rrss_2023.fechadd_mm_aaaa.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "VariationSource": "Fecha(dd/mm/aaaa)",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha ( dd / mm / aaaa ) date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd mm aaaa ) date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "rrss_2023.fechadd_mm_aaaa.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "VariationSource": "Fecha(dd/mm/aaaa)",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha ( dd / mm / aaaa ) year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha(dd/mm/aaaa) year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha ( dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd mm aaaa ) year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha(dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa) year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "aaaa) yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "rrss_2023.fechadd_mm_aaaa.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "VariationSource": "Fecha(dd/mm/aaaa)",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha ( dd / mm / aaaa ) quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha(dd/mm/aaaa) quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha ( dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd mm aaaa ) quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha(dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa) quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "aaaa) qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "rrss_2023.fechadd_mm_aaaa.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "VariationSource": "Fecha(dd/mm/aaaa)",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha ( dd / mm / aaaa ) month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha(dd/mm/aaaa) month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha ( dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd mm aaaa ) month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha(dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa) month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "aaaa) mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "rrss_2023.fechadd_mm_aaaa.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "VariationSource": "Fecha(dd/mm/aaaa)",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha ( dd / mm / aaaa ) day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha(dd/mm/aaaa) day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha ( dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha ( dd mm aaaa ) day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa ) day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fecha(dd": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aaaa) day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "rrss_2023.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.tipo_de_residuo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Tipo de residuo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de residuo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.cantidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Cantidad (kg)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cantidad (kg)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "kilogram",
+			        "kg"
+			      ]
+			    },
+			    "rrss_2023.tipo_de_servicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Tipo de Servicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de servicio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.precio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Precio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.valorizado_s_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Valorizado (S/)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valorizado (s/)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valorizado": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "valorizado (s": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "valorizado ( s )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.empresa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Empresa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "empresa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.tipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Tipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.reciclable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "%reciclable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%reciclable": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage reciclable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct reciclable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.meta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "meta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.cantidad_reciclable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "Cantidad reciclable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad reciclable": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.reciclable_categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "ConceptualProperty": "%reciclable_categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%reciclable_categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage reciclable_categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct reciclable_categoria": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "% Meta Reciclaje": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "% Reciclable": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.región_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "Hierarchy": "Región Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "región hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "región ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "región grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "región order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "región pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.región_hierarchy.región": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "Hierarchy": "Región Hierarchy",
+			          "HierarchyLevel": "Región"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "región": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "rrss_2023.región_hierarchy.distrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "RRSS2023",
+			          "Hierarchy": "Región Hierarchy",
+			          "HierarchyLevel": "Distrito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distrito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "rrss_2023_región_hierarchy_región_has_rrss_2023_región_hierarchy_distrito": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.región_hierarchy.región": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy.región"
+			          }
+			        },
+			        "rrss_2023.región_hierarchy.distrito": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy.distrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.región_hierarchy.región"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.región_hierarchy.distrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regións_have_distrito"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.región_hierarchy.distrito"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.región_hierarchy.región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "distrito_have_regións"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "rrss_2023.región_hierarchy.distrito"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "rrss_2023.región_hierarchy.región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "distrito_are_in_regións"
+			        }
+			      ]
+			    },
+			    "rrss_2023_región_hierarchy_has_distrito": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.región_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy"
+			          }
+			        },
+			        "rrss_2023.región_hierarchy.distrito": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy.distrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.región_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.región_hierarchy.distrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "región_hierarchies_have_distrito"
+			        }
+			      ]
+			    },
+			    "rrss_2023_región_hierarchy_has_región": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.región_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy"
+			          }
+			        },
+			        "rrss_2023.región_hierarchy.región": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy.región"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.región_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.región_hierarchy.región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "región_hierarchies_have_regións"
+			        }
+			      ]
+			    },
+			    "rrss_2023_fechadd_mm_aaaa_date_hierarchy_has_rrss_2023_fechadd_mm_aaaa_day": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.fechadd_mm_aaaa.date_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			          }
+			        },
+			        "rrss_2023.fechadd_mm_aaaa.day": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha__dd___mm___aaaa__date_hierarchies_have_fecha__dd___mm___aaaa__days"
+			        }
+			      ]
+			    },
+			    "rrss_2023_fechadd_mm_aaaa_date_hierarchy_has_rrss_2023_fechadd_mm_aaaa_month": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.fechadd_mm_aaaa.date_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			          }
+			        },
+			        "rrss_2023.fechadd_mm_aaaa.month": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha__dd___mm___aaaa__date_hierarchies_have_fecha__dd___mm___aaaa__months"
+			        }
+			      ]
+			    },
+			    "rrss_2023_fechadd_mm_aaaa_date_hierarchy_has_rrss_2023_fechadd_mm_aaaa_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.fechadd_mm_aaaa.date_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			          }
+			        },
+			        "rrss_2023.fechadd_mm_aaaa.quarter": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha__dd___mm___aaaa__date_hierarchies_have_fecha__dd___mm___aaaa__quarters"
+			        }
+			      ]
+			    },
+			    "rrss_2023_fechadd_mm_aaaa_date_hierarchy_has_rrss_2023_fechadd_mm_aaaa_year": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.fechadd_mm_aaaa.date_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			          }
+			        },
+			        "rrss_2023.fechadd_mm_aaaa.year": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha__dd___mm___aaaa__date_hierarchies_have_fecha__dd___mm___aaaa__years"
+			        }
+			      ]
+			    },
+			    "rrss_2023_fechadd_mm_aaaa_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023.fechadd_mm_aaaa": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa"
+			          }
+			        },
+			        "rrss_2023.fechadd_mm_aaaa.date_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechadd_mm_aaaa_have_fecha__dd___mm___aaaa__date_hierarchies"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_región_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.región_hierarchy": {
+			          "Target": {
+			            "Entity": "rrss_2023.región_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.región_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_región_hierarchies"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_reciclable_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.reciclable_categoria": {
+			          "Target": {
+			            "Entity": "rrss_2023.reciclable_categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.reciclable_categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_reciclable_categoria"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_cantidad_reciclable": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.cantidad_reciclable": {
+			          "Target": {
+			            "Entity": "rrss_2023.cantidad_reciclable"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.cantidad_reciclable"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_cantidad_reciclable"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_meta": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.meta": {
+			          "Target": {
+			            "Entity": "rrss_2023.meta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.meta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_meta"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_reciclable": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.reciclable": {
+			          "Target": {
+			            "Entity": "rrss_2023.reciclable"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.reciclable"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_reciclable"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_tipo": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.tipo": {
+			          "Target": {
+			            "Entity": "rrss_2023.tipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.tipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_tipos"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_empresa": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.empresa": {
+			          "Target": {
+			            "Entity": "rrss_2023.empresa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.empresa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_empresas"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_valorizado_s_": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.valorizado_s_": {
+			          "Target": {
+			            "Entity": "rrss_2023.valorizado_s_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.valorizado_s_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_valorizado_s_"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_precio": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.precio": {
+			          "Target": {
+			            "Entity": "rrss_2023.precio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.precio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_precios"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_tipo_de_servicio": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.tipo_de_servicio": {
+			          "Target": {
+			            "Entity": "rrss_2023.tipo_de_servicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.tipo_de_servicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_tipo_de_servicios"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_cantidad": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.cantidad": {
+			          "Target": {
+			            "Entity": "rrss_2023.cantidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.cantidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_cantidads"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_tipo_de_residuo": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.tipo_de_residuo": {
+			          "Target": {
+			            "Entity": "rrss_2023.tipo_de_residuo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.tipo_de_residuo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_tipo_de_residuos"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.me": {
+			          "Target": {
+			            "Entity": "rrss_2023.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_me"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_fechadd_mm_aaaa": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.fechadd_mm_aaaa": {
+			          "Target": {
+			            "Entity": "rrss_2023.fechadd_mm_aaaa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.fechadd_mm_aaaa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_fechadd_mm_aaaa"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_gor": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.gor": {
+			          "Target": {
+			            "Entity": "rrss_2023.gor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.gor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_gors"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_distrito": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.distrito": {
+			          "Target": {
+			            "Entity": "rrss_2023.distrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.distrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_distrito"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_región": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.región": {
+			          "Target": {
+			            "Entity": "rrss_2023.región"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_regións"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_formato": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.formato": {
+			          "Target": {
+			            "Entity": "rrss_2023.formato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.formato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_formatos"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_columna_2": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.columna_2": {
+			          "Target": {
+			            "Entity": "rrss_2023.columna_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.columna_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_columna_2"
+			        }
+			      ]
+			    },
+			    "rrss_2023_has_local": {
+			      "Binding": {
+			        "ConceptualEntity": "RRSS2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rrss_2023": {
+			          "Target": {
+			            "Entity": "rrss_2023"
+			          }
+			        },
+			        "rrss_2023.local": {
+			          "Target": {
+			            "Entity": "rrss_2023.local"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rrss_2023"
+			            },
+			            "Object": {
+			              "Role": "rrss_2023.local"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rrss_2023_have_locals"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

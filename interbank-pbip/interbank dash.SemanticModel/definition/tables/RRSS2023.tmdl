@@ -1,0 +1,210 @@
+table RRSS2023
+	lineageTag: be53228e-c6d8-4d52-b532-31c22bbc3ee6
+
+	measure %reciclable =
+			
+			
+			VAR RECICLABLE =
+			CALCULATE(SUM(RRSS2023[Cantidad (kg)]),RRSS2023[Tipo]= "Reciclable")
+			
+			VAR TOTAL_CANTIDAD=
+			CALCULATE(SUM(RRSS2023[Cantidad (kg)]),ALL(RRSS2023))
+			
+			
+			RETURN
+			RECICLABLE/TOTAL_CANTIDAD
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		lineageTag: e84f432e-96bd-43cc-ad12-64d973a56cdb
+
+	measure meta = 0.7
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: d7a5ecfb-5d3d-429f-82c0-0d052970b7ff
+
+	measure 'Cantidad reciclable' =
+			
+			
+			VAR RECICLABLE =
+			CALCULATE(SUM(RRSS2023[Cantidad (kg)]),RRSS2023[Tipo]= "Reciclable")
+			
+			RETURN
+			RECICLABLE
+		lineageTag: 50363b96-aa7d-497f-aaf4-07f00cf6d67e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure %reciclable_categoria =
+			
+			
+			VAR RECICLABLE =
+			CALCULATE(SUM(RRSS2023[Cantidad (kg)]),RRSS2023[Tipo]= "Reciclable")
+			
+			VAR TOTAL_CANTIDAD=
+			CALCULATE(SUM(RRSS2023[Cantidad (kg)]),ALLSELECTED(RRSS2023))
+			
+			
+			RETURN
+			RECICLABLE/TOTAL_CANTIDAD
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		lineageTag: 37f606fe-b7ca-4a3f-9e3d-bc4cbf2eacc9
+
+	column Local
+		dataType: string
+		lineageTag: 297785bf-9543-4503-ab22-f9fce86b42e4
+		summarizeBy: none
+		sourceColumn: Local
+
+		annotation SummarizationSetBy = Automatic
+
+	column Columna2
+		dataType: string
+		lineageTag: 9c3601e6-e343-472a-973a-ae0be98d17c2
+		summarizeBy: none
+		sourceColumn: Columna2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Formato
+		dataType: string
+		lineageTag: ef7a54a0-0f15-468a-8af2-e9cd8c3f4792
+		summarizeBy: none
+		sourceColumn: Formato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Región
+		dataType: string
+		lineageTag: 998db695-06f7-450f-893f-71de1c3e0abc
+		summarizeBy: none
+		sourceColumn: Región
+
+		annotation SummarizationSetBy = Automatic
+
+	column Distrito
+		dataType: string
+		lineageTag: 9fd7115a-4e9c-467a-8cc4-140870aba0a2
+		summarizeBy: none
+		sourceColumn: Distrito
+
+		annotation SummarizationSetBy = Automatic
+
+	column GOR
+		dataType: string
+		lineageTag: 38d20811-2ee9-4911-bf8a-e35ce2c9dc6b
+		summarizeBy: none
+		sourceColumn: GOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha(dd/mm/aaaa)
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c9f73cb4-1876-4d20-a2ea-7e5c253541d0
+		summarizeBy: none
+		sourceColumn: Fecha(dd/mm/aaaa)
+
+		variation Variation
+			isDefault
+			relationship: 27f07d6e-b86b-4b20-aee0-3b11ebe9b1be
+			defaultHierarchy: LocalDateTable_18694da8-8808-49e8-9e0c-5e43348db968.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Mes
+		dataType: string
+		lineageTag: 6dbac860-6bfd-47ec-bd5d-1942a46c46c5
+		summarizeBy: none
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de residuo'
+		dataType: string
+		lineageTag: 043e4115-0a69-46a3-8313-ac8c2cc9282f
+		summarizeBy: none
+		sourceColumn: Tipo de residuo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cantidad (kg)'
+		dataType: double
+		lineageTag: 59b752ba-be5d-46b1-b462-8ed406ba550f
+		summarizeBy: sum
+		sourceColumn: Cantidad (kg)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Tipo de Servicio'
+		dataType: string
+		lineageTag: af3fa1fd-4a4e-45fc-a507-eb8cfa5967d1
+		summarizeBy: none
+		sourceColumn: Tipo de Servicio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Precio
+		dataType: double
+		formatString: "S"#,0.00;-"S"#,0.00;"S"#,0.00
+		lineageTag: dfe32f04-b973-424c-89ae-ad627e81b509
+		summarizeBy: sum
+		sourceColumn: Precio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"so-SO"}
+
+	column 'Valorizado (S/)'
+		dataType: double
+		lineageTag: c34579db-5a0d-42a7-82b0-b32a3e6c339f
+		summarizeBy: sum
+		sourceColumn: Valorizado (S/)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Empresa
+		dataType: string
+		lineageTag: eebb4e07-e2fa-4a3b-af52-3399adacacb9
+		summarizeBy: none
+		sourceColumn: Empresa
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo
+		dataType: string
+		lineageTag: 753a0a7f-d29a-4875-8b8a-ffd0b910812a
+		summarizeBy: none
+		sourceColumn: Tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Región Hierarchy'
+		lineageTag: 4fddfd7f-acf4-440e-8732-31de67bf71e5
+
+		level Región
+			lineageTag: aabc8854-b4a6-49ea-b401-48f5bfd97d94
+			column: Región
+
+		level Distrito
+			lineageTag: 9bdba335-33bd-479a-b243-ec3c9c16ad4d
+			column: Distrito
+
+	partition RRSS2023 = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\User\Downloads\BD RRSS 2023.xlsx"), null, true),
+				    RRSS2023_Table = Source{[Item="RRSS2023",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(RRSS2023_Table,{{"Local", type text}, {"Columna2", type text}, {"Formato", type text}, {"Región", type text}, {"Distrito", type text}, {"GOR", type text}, {"Fecha#(lf)(dd/mm/aaaa)", type date}, {"Mes", type text}, {"Tipo de residuo", type text}, {"Cantidad (kg)", type number}, {"Tipo de Servicio", type text}, {"Precio", type number}, {"Valorizado (S/)", type number}, {"Empresa", type text}, {"Tipo", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","#N/A","NA",Replacer.ReplaceText,{"Local"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

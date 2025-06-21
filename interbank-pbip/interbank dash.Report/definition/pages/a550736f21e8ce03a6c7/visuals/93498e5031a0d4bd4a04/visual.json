@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "93498e5031a0d4bd4a04",
+  "position": {
+    "x": 0,
+    "y": 680.72727272727275,
+    "z": 9000,
+    "height": 39.272727272727273,
+    "width": 415.16883116883116,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Todas las cantidades estan representadas en Kg de producto reciclable",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

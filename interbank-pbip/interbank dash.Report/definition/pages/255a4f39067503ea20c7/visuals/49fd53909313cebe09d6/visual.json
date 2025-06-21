@@ -1,0 +1,111 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "49fd53909313cebe09d6",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 115,
+    "width": 320,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "multiRowCard",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "RRSS2023"
+                    }
+                  },
+                  "Property": "%reciclable_categoria"
+                }
+              },
+              "queryRef": "RRSS2023.%reciclable_categoria",
+              "nativeQueryRef": "% Reciclable",
+              "displayName": "% Reciclable"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "RRSS2023"
+                    }
+                  },
+                  "Property": "Cantidad reciclable"
+                }
+              },
+              "queryRef": "RRSS2023.Cantidad reciclable",
+              "nativeQueryRef": "Cantidad reciclable"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "RRSS2023"
+                        }
+                      },
+                      "Property": "Precio"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Sum(RRSS2023.Precio)",
+              "nativeQueryRef": "Average of Precio",
+              "displayName": " Precio"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "RRSS2023"
+                        }
+                      },
+                      "Property": "Valorizado (S/)"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Sum(RRSS2023.Valorizado (S/))",
+              "nativeQueryRef": "Average of Valorizado (S/)",
+              "displayName": "Valorizado (S/)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "RRSS2023"
+                  }
+                },
+                "Property": "%reciclable_categoria"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

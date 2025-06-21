@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "interbank dash"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "522061a1-038b-4759-a044-7d0ae56b4635"
+  }
+}

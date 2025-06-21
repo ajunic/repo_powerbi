@@ -1,0 +1,5 @@
+relationship 27f07d6e-b86b-4b20-aee0-3b11ebe9b1be
+	joinOnDateBehavior: datePartOnly
+	fromColumn: RRSS2023.Fecha(dd/mm/aaaa)
+	toColumn: LocalDateTable_18694da8-8808-49e8-9e0c-5e43348db968.Date
+
